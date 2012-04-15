@@ -1,0 +1,88 @@
+html {
+    height: 100%;
+    background-image: url(../images/background2.jpg);
+}
+
+body {
+    position: relative;
+    background-color: #f0f0f0;
+    margin: 0 auto;
+    width: 1000px;
+    min-height: 100%;
+
+    color: #000000;
+    font-family: Verdana;
+    box-shadow: 0 0 15px 5px #000;
+}
+
+a {
+    color: #6666ff;
+}
+
+a:visited {
+    color: #aa33ff;
+}
+
+header {
+    height: 300px;
+    width: 100%;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+#content {
+    padding: 0 25px 10px;
+    width: 80%;
+}
+
+.split {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+
+#menu {
+    float: right;
+    width: 15%;
+}
+
+#menu ul {
+    list-style: none;
+    margin: 15px 0 0 0;
+    padding: 0 0 0 1em;
+}
+
+#menu ul li {
+    padding: 3px 0;
+    font-size: 20px;
+}
+
+#menu ul li a {
+    color: #000000;
+}
+
+#menu ul li a.selected {
+    color: #A0A0A0;
+}
+
+h1 {
+    margin: 10px 0 5px 0;
+    font-weight: normal;
+    font-family: Arial;
+    border-bottom: 1px solid #FF0000;
+}
+
+table td,
+table th {
+    font-size: 14px;
+}
+
+table.inline {
+    display: inline-block;
+}
