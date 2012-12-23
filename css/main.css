@@ -23,6 +23,11 @@ a:visited {
     color: #aa33ff;
 }
 
+a.disabled {
+    color: #cccccc !important;
+    cursor: auto;
+}
+
 header {
     height: 300px;
     width: 100%;
